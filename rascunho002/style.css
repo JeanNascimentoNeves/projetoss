@@ -1,0 +1,105 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+/* font-family: "Inter", sans-serif; */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+   
+}
+:root{
+    ---cor-fundo:#141414;
+    ---cor-dentro:#1F1F1F;
+    ---cor-h3: #C5E55C;
+    ---cor-h1:#F8F8F8;
+    ---cor-p:#BCBCBC;
+    ---cor-botao:#333333;
+    --cor-nome-botao:#F3F3F3;
+}
+body{
+    font-family: "Inter", sans-serif;
+ 
+    text-align: center;
+
+    height: 100vh;
+    
+    
+    
+    background: var(---cor-fundo);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.div-principal{
+    background-color: var(---cor-dentro);
+    height: 650px;
+    max-width: 1000px;
+    min-width: 375px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+   
+
+}
+.div-butoes{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-shadow: 0px 1px 10px black;
+}
+.pai-imagen{
+    display: flex;
+    flex-direction: column;
+   
+    gap: 10px;
+}
+.div-imagem{
+    
+    border-radius: 100%;
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    column-gap: 10px;
+    margin-bottom: 10px;
+   
+    
+    
+    
+
+}
+h1{ padding: 10px;
+    color: var(---cor-h1);
+
+
+}
+.para{color: var(---cor-p);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.botao01{
+    
+    height: 40px;
+    width: 300px;
+    border-radius: 10px;
+   
+    
+
+}
+h3{
+    color: var(---cor-h3);
+    padding-bottom: 30px;
+}
+p{ font-weight: 700;
+    color: var(--cor-nome-botao)
+}
+button{
+    background-color:var(---cor-botao);
+    
+    
+}
+
