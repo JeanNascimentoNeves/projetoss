@@ -33,12 +33,12 @@ a:hover{
     
 }
 h1{
-    font-size: 4em;
+    font-size: 5em;
     font-family: var(---font3);
     padding-top: 50px;
 }
 .paragrafo{
-    font-size: 2em;
+    font-size: 3.5vw;
     font-family: var(---fon2);
     line-height: 2em;
     padding-top: 10vh;
@@ -62,17 +62,19 @@ h1{
 
 }
  .paragrafo-especialq1{
-    font-size: 2em;
+    font-size: 3.5vw;
     padding: 5px;
     background-color: rgba(0, 0, 0, 0.607);
     display: inline-block;
     font-family: var(---fon2);
     text-shadow: 1px 1px 0px 
     black;
+    line-height: 2em;
+     
    
  }
  .paragrafo-fot0#q2{
-    line-height: 2em;
+    line-height: 2vw;
     padding-top: 10vh;
     padding-left: 3vh;
     padding-bottom: 10vh;
@@ -85,7 +87,7 @@ h1{
 
  }
  .paragrafo-especial{
-    font-size: 2em;
+    font-size: 3.5vw;
     padding: 5px; 
     color: white;
     background-color: rgba(0, 0, 0, 0.41);
@@ -93,6 +95,8 @@ h1{
      font-family: var(---fon2);
      text-shadow: 1px 1px 0px 
      black;
+     line-height: 2em;
+     
    
      
  }
