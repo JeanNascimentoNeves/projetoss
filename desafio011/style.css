@@ -33,12 +33,12 @@ a:hover{
     
 }
 h1{
-    font-size: 5em;
+    font-size: 3.5vw;
     font-family: var(---font3);
     padding-top: 50px;
 }
 .paragrafo{
-    font-size: 3.5vw;
+    font-size: 2.5vw;
     font-family: var(---fon2);
     line-height: 2em;
     padding-top: 10vh;
@@ -62,7 +62,7 @@ h1{
 
 }
  .paragrafo-especialq1{
-    font-size: 3.5vw;
+    font-size: 2.5vw;
     padding: 5px;
     background-color: rgba(0, 0, 0, 0.607);
     display: inline-block;
@@ -87,7 +87,7 @@ h1{
 
  }
  .paragrafo-especial{
-    font-size: 3.5vw;
+    font-size: 2.5vw;
     padding: 5px; 
     color: white;
     background-color: rgba(0, 0, 0, 0.41);
