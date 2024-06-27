@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap");
+/*   font-family: "Passion One",   sans-serif;*/
+@import url("https://fonts.googleapis.com/css2?family=Sriracha&display=swap");
+/* font-family: "Sriracha", cursive; */
+:root {
+  ---fon1: Verdana, Geneva, Tahoma, sans-serif;
+  ---fon2: "Sriracha", cursive;
+  ---font3: "Passion One",   sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+}
+body{
+    font-family: var(---fon1);
+}
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+header > p{
+    padding-bottom: 50px;
+}
+a:hover{
+    text-decoration: underline;
+    
+}
+h1{
+    font-size: 3em;
+    font-family: var(---font3);
+    padding-top: 50px;
+}
+.paragrafo{
+    font-size: 2em;
+    font-family: var(---fon2);
+    line-height: 2em;
+    padding-top: 10vh;
+    padding-left: 3vh;
+    padding-bottom: 10vh;
+
+}
+.paragrafo-foto#q1{
+    line-height: 2em;
+    padding-top: 10vh;
+    padding-left: 3vh;
+    padding-bottom: 10vh;
+    background-color: rgb(106, 8, 8);
+    color: white;
+    background-image: url(imagens/background001.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: right center;
+    box-shadow: inset 6px 6px 13px 
+    0px rgba(0, 0, 0, 0.633);
+
+}
+ .paragrafo-especialq1{
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.607);
+    display: inline-block;
+    font-family: var(---fon2);
+    text-shadow: 1px 1px 0px 
+    black;
+   
+ }
+ .paragrafo-fot0#q2{
+    line-height: 2em;
+    padding-top: 10vh;
+    padding-left: 3vh;
+    padding-bottom: 10vh;
+    background-color: black;
+    background-image: url(imagens/background002.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: right bottom;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.671);
+
+ }
+ .paragrafo-especial{
+    padding: 5px; 
+    color: white;
+    background-color: rgba(0, 0, 0, 0.41);
+    display: inline-block;
+     font-family: var(---fon2);
+     text-shadow: 1px 1px 0px 
+     black;
+   
+     
+ }
+ p{
+    padding-bottom: 1em;
+ }
+  
+ 
+  
+  
+  
+  
+
+    
+
+
+
